@@ -7,7 +7,7 @@
   <meta name="keywords" content="Bootstrap, lesson">
   <meta name="author" content="">
   <meta name="description" content="Simple Bootstrap Site for Homework">
-  <title>Bootstrap Website</title>
+  <title>Bootstrap Homework</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -22,17 +22,37 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="#"><img src="#"></a>
+    <a class="navbar-brand" href="#"><img src="img/w3newbie.png"></a>
     </div>
 <div class="navbar-collapse" id="myNavbar">
   <ul class="nav navbar-nav navbar right">
-    <li class="active"></li>
+    <li class="active"></li><a href="#">Home</a></li>
+    <li><a href="#">About</a>
+    <li><a href="#">Services</a>
+    <li><a href="#">Testimonials</a>
+    <li><a href="#">Contact</a>
   </ul>
 </div>
-  </div>
-
 </nav>
-
+<div>
+  <div id-"myCarousel" class="carousel slide" data-rde="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/mountains.png">
+      <div class="carousel-caption">
+        <h1>Get to Know Bootsrap</h1>
+        <br>
+        <button type="button" class="btn bt-default">Get Started</button>
+      </div>
+    </div>
+  </div>
+    </div>
+</div><!---End Slider--->
 </body>
 
 </html>
