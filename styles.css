@@ -37,6 +37,7 @@
   margin: 4% auto;
 }
 #icon {
+<<<<<<< HEAD
   max-width: 200px;
   margin: 1% auto;
 }
@@ -54,3 +55,12 @@
     font-size: 1.7em;
   }
 }
+=======
+  max-width:200px;
+  margin: 1% auto;
+}
+@media (max-width: 600px) {
+.carousel-caption:
+  display: none;
+  }
+>>>>>>> f8ec4bf56bcbc14d16e46065d9e07b776bd246b0
